@@ -1,0 +1,56 @@
+image=~/.config/swaylock/one.png
+daemonize
+ignore-empty-password
+font=SpaceMono Nerd Font
+font-size=23
+
+clock
+timestr=%R
+#datestr=%a, %e of %B
+
+color=282a36
+
+#fade-in=0.1
+#effect-blur=20x2
+#effect-greyscale
+effect-scale=0.3
+
+indicator
+indicator-radius=95
+indicator-thickness=10
+indicator-caps-lock
+
+key-hl-color=50fa7b
+caps-lock-key-hl-color=d4d4d4
+
+separator-color=00000000
+
+inside-color=1F202A
+inside-clear-color=6272a4
+inside-caps-lock-color=00000099
+inside-ver-color=bd93f9
+inside-wrong-color=ff5555
+
+ring-color=bd93f9
+ring-clear-color=6272a4
+ring-caps-lock-color=1c1c1c
+ring-ver-color=bd93f9
+ring-wrong-color=400000
+
+line-color=1F202A
+line-clear-color=1F202A
+line-caps-lock-color=d4d4d4
+line-ver-color=1F202A
+line-wrong-color=1F202A
+
+text-color=c9c9c9
+text-clear-color=1F202A
+text-ver-color=1F202A
+text-wrong-color=c9c9c9
+
+bs-hl-color=ff5555
+caps-lock-bs-hl-color=470400
+# caps-lock-key-hl-color=ffd204FF
+# caps-lock-bs-hl-color=ee2e24FF
+# disable-caps-lock-text
+text-caps-lock-color=f8f8f2
