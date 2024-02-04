@@ -1,0 +1,10 @@
+clone: yay
+possibly gprbuild(some of these deps wont resolve)
+
+kitty ags ruby neovim tmux go-swagger python go markdown cargo php python3 jdk-openjdk yarn
+
+npm install -g
+tree-sitter swagger-ui-watcher neovim
+
+
+python-neovim
