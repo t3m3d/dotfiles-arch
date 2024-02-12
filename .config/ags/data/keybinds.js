@@ -4,12 +4,12 @@ export const keybindList = [[
         "name": "Workspaces: navigation",
         "binds": [
             { "keys": ["", "+", "#"], "action": "Go to workspace" },
-            { "keys": ["", "+", "S"], "action": "Toggle special workspace" },
-            { "keys": ["", "+", "(Scroll ↑↓)"], "action": "Change Workspace" },
-            { "keys": ["Ctrl", "", "+", "←→"], "action": "Change Workspace" },
+            { "keys": ["", "+", "S"], "action": "Drop Workspace" },
+            // { "keys": ["", "+", "(Scroll ↑↓)"], "action": "Change Workspace" },
+            // { "keys": ["Ctrl", "", "+", "←→"], "action": "Change Workspace" },
             // { "keys": ["Ctrl", "", "+", "→"], "action": "Go to workspace on the right" },
-            { "keys": ["", "+", "PageUp"], "action": "Go to workspace on the left" },
-            { "keys": ["", "+", "PageDown"], "action": "Go to workspace on the right" }
+            // { "keys": ["", "+", "PageUp"], "action": "Go to workspace on the left" },
+            // { "keys": ["", "+", "PageDown"], "action": "Go to workspace on the right" }
         ],
         "appeartick": 1
     },
@@ -30,8 +30,8 @@ export const keybindList = [[
         "binds": [
             { "keys": ["", "+", "←↑→↓"], "action": "Change Window Focus" },
             { "keys": ["", "Shift", "+", "←↑→↓"], "action": "Swap window in direction" },
-            { "keys": ["", "+", ";"], "action": "Split ratio -" },
-            { "keys": ["", "+", "'"], "action": "Split ratio +" },
+            // { "keys": ["", "+", ";"], "action": "Split ratio -" },
+            // { "keys": ["", "+", "'"], "action": "Split ratio +" },
             { "keys": ["", "+", "Lmb"], "action": "Move window" },
             { "keys": ["", "+", "Mmb"], "action": "Move window" },
             { "keys": ["", "+", "Rmb"], "action": "Resize window" },
@@ -44,22 +44,22 @@ export const keybindList = [[
 [
     {
         "icon": "widgets",
-        "name": "Widgets (AGS)",
+        "name": "Widgets",
         "binds": [
-            { "keys": ["", "OR", "", "+", "Tab"], "action": "Toggle overview/launcher" },
-            { "keys": ["Ctrl", "", "+", "R"], "action": "Restart AGS" },
-            { "keys": ["", "+", "H"], "action": "Toggle Help" },
-            { "keys": ["", "+", "P"], "action": "Chat GPT Bar" },
-            { "keys": ["", "+", "X", "OR", "", "+", "O"], "action": "Tasks and Settings Bar" },
-            { "keys": ["", "+", "K"], "action": "Toggle virtual keyboard" },
-            { "keys": ["Ctrl", "Alt", "+", "Del"], "action": "Logout/Shutdown" },
+            { "keys": ["", "OR", "", "+", "Tab"], "action": "Launcher" },
+            { "keys": ["Ctrl", "", "+", "R"], "action": "Restart UI" },
+            { "keys": ["", "+", "H"], "action": "Help" },
+            { "keys": ["", "+", "P"], "action": "Settings" },
+            { "keys": ["", "+", "X"], "action": "ChatGPT/Gemini" },
+            // { "keys": ["", "+", "K"], "action": "Toggle Keyboard" },
+            { "keys": ["Ctrl", "Alt", "+", "Del"], "action": "Shutdown" },
 
-            { "keys": ["Esc"], "action": "Exit a window" },
+            // { "keys": ["Esc"], "action": "Exit a window" },
             // { "keys": ["rightCtrl"], "action": "Dismiss/close sidebar" },
 
             { "keys": ["Ctrl", "", "+", "T"], "action": "Change wallpaper+colorscheme" },
 
-            // { "keys": ["", "+", "X"], "action": "Chat GPT Bar" },
+            { "keys": ["", "+", "C"], "action": "Close Window" },
             // { "keys": ["", "+", "P"], "action": "Tasks and Settings Bar" },
             // { "keys": ["", "+", "G"], "action": "Toggle volume mixer" },
             // { "keys": ["", "+", "M"], "action": "Toggle useless audio visualizer" },
@@ -101,11 +101,11 @@ export const keybindList = [[
         "icon": "apps",
         "name": "Apps",
         "binds": [
-            { "keys": ["", "+", "A"], "action": "Launch Kitty" },
-            { "keys": ["", "+", "W"], "action": "Launch Floorp" },
-            { "keys": ["", "+", "N"], "action": "Launch NeoVim" },
-            // { "keys": ["", "+", "X"], "action": "Launch editor: GNOME Text Editor" },
-            { "keys": ["", "+", "I"], "action": "Launch Settings" }
+            { "keys": ["", "+", "A"], "action": "Kitty" },
+            { "keys": ["", "+", "B"], "action": "Floorp" },
+            { "keys": ["", "+", "N"], "action": "Nano" },
+            { "keys": ["", "+", "R"], "action": "Ranger" },
+            { "keys": ["", "+", "I"], "action": "Control Center" }
         ],
         "appeartick": 3
     },

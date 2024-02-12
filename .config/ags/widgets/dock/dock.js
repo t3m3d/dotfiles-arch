@@ -12,8 +12,8 @@ import { setupCursorHover } from "../../lib/cursorhover.js";
 
 const ANIMATION_TIME = 150;
 const pinnedApps = [
-    'firefox',
-    'org.gnome.Nautilus',
+    'floorp',
+    'org.gnome.Dolphin',
 ];
 
 function substitute(str) {

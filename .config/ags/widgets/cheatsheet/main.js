@@ -19,7 +19,7 @@ const cheatsheetHeader = () => Widget.CenterBox({
                         hpack: 'center',
                         css: 'margin-right: 0.682rem;',
                         className: 'txt-title txt',
-                        label: 'Cheat sheet',
+                        label: 'Hypr Help',
                     }),
                     Widget.Label({
                         vpack: 'center',
@@ -43,7 +43,7 @@ const cheatsheetHeader = () => Widget.CenterBox({
                 selectable: true,
                 justify: Gtk.Justification.CENTER,
                 className: 'txt-small txt',
-                label: 'Welcome to programming hell!'
+                label: 'Theres no place like ~/'
             }),
         ]
     }),
