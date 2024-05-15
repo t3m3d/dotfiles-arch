@@ -1,10 +1,4 @@
-clone: yay
-possibly gprbuild(some of these deps wont resolve)
+git clone https://aur.archlinux.org/yay.git || cd yay || makepkg -si || cd
 
-kitty ags ruby neovim tmux go-swagger python go markdown cargo php python3 jdk-openjdk yarn
+yay -S --noconfirm kitty ags golang python go markdown php python3 jdk-openjdk code
 
-npm install -g
-tree-sitter swagger-ui-watcher neovim
-
-
-python-neovim
