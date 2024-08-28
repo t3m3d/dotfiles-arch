@@ -1,4 +1,0 @@
-git clone https://aur.archlinux.org/yay.git || cd yay || makepkg -si || cd
-
-yay -S --noconfirm weston kitty ags golang python go markdown php python3 jdk-openjdk code
-
